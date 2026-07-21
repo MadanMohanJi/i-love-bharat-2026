@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  // ADD THIS LINE! It must match your exact repo name surrounded by slashes
+  // This tells Vite where your files will be hosted on GitHub
   base: '/i-love-bharat-2026/', 
 })
