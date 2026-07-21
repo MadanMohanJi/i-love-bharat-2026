@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // This completely fixes the 404 error on GitHub Pages
-  // by telling it exactly which folder to look in!
-  base: '/i-love-bharat-2026/', 
+  // Using './' tells the browser to look in the current folder!
+  // This prevents the White Screen of Death on GitHub Pages.
+  base: './', 
 })
