@@ -30,7 +30,7 @@ const auth = getAuth(app);
 const db = getFirestore(app);
 
 // ⭐ ADMIN INSTRUCTION: REPLACE THIS LINK WITH YOUR ACTUAL GROUP LINK ⭐
-const WHATSAPP_GROUP_LINK = 'https://chat.whatsapp.com/invite/DemoUjjainYouthGroup2026';
+const WHATSAPP_GROUP_LINK = 'https://chat.whatsapp.com/FpeSQ87IeBT7qKgt7ZknoN';
 
 // --- Custom Tricolor Heart Component ---
 const TriColorHeart = ({ className }) => (
